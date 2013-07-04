@@ -1,7 +1,7 @@
 exports.home = function (request, response) {
 //  response.send('Hello: '+request.path+'<p>');
   response.writeHead(200,{"Content-Type": "text/html"});
-  response.write('Welcome: <p>');
+  response.write('Welcome: '+request);
   response.write('<li>'+request.host+'</li>');
   response.write('<li>'+request.request+'</li>');
   response.write('<li>'+request.path+'</li>');
