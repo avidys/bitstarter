@@ -1,5 +1,11 @@
 exports.home = function (request, response) {
-//  response.send('Hello: '+request.path+'<p>');
+	fs.readFileSync(filename, [options])
+  response.send(s);
+}
+
+
+exports.info = function (request, response) {
+//  response.send('Hello you: '+request.path+'<p>');
   response.writeHead(200,{"Content-Type": "text/html"});
   response.write('Welcome: '+request);
   response.write('<li>'+request.host+'</li>');
