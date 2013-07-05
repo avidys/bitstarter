@@ -1,8 +1,13 @@
-var fs=require('fs')
+var fs=require('fs');
+var filename = "index.html"
 
 exports.home = function (request, response) {
-	fs.readFileSync(filename, [options])
-  response.send(s);
+    response.send("Hello you!");
+}
+
+exports.home1 = function (request, response) {
+	var s = fs.readFileSync(filename, [options])
+    response.send(s);
 }
 
 
