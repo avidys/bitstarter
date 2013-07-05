@@ -1,3 +1,4 @@
+
 exports.home = function (request, response) {
 	fs.readFileSync(filename, [options])
   response.send(s);
