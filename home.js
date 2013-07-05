@@ -1,3 +1,4 @@
+var fs=require('fs')
 
 exports.home = function (request, response) {
 	fs.readFileSync(filename, [options])
