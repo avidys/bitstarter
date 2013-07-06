@@ -2,7 +2,7 @@ var fs=require('fs');
 var filename = "index.html"
 
 exports.home = function (request, response) {
-    response.send("Hello you!!!!!!!!!!!!!!!!11");
+    response.send("Hello toi!");
 }
 
 exports.home1 = function (request, response) {
