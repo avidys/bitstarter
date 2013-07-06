@@ -2,12 +2,12 @@ var fs=require('fs');
 var filename = "index.html"
 
 exports.home = function (request, response) {
-    response.send("Hello toi!");
+	var s = fs.readFileSync(filename)
+    response.send(s.toString());
 }
 
-exports.home1 = function (request, response) {
-	var s = fs.readFileSync(filename, [options])
-    response.send(s);
+exports.home0 = function (request, response) {
+    response.send("Hello toi!");
 }
 
 
