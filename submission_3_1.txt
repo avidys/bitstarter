@@ -1,0 +1,1 @@
+http://github.com/avidys/bitstarter, http://coursera-bitstarter.herokuapp.com
