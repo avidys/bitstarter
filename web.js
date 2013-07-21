@@ -3,7 +3,7 @@
 var express = require('express');
 var home = require('./controller.js'); 
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
 console.log("Starting Server on port "+port);
 
 var app = express.createServer(express.logger());
