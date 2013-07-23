@@ -1,0 +1,29 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CxUQM2GztUeH4Loe4lgTt34DAAv_VorEDn83gxVWv4JPDuAEQASCc8_gBUK3QgoP4_____wFgyY7ghsijkBmgAfnV2PgDyAEBqAMBqgSmAU_QMSbIOolv5CUZViAjUDZkRMy65pobFrgFD7N5tjJ9c4ASUvWhBCwQWiDl8Idc7th6fnXQwl7JAgJGm0-AKQIQ1cHqqCFKi328kL4Ms6sKaW82B1PKy6zA8kdFp-DpncHAqrgbWfgKa7u6N5JwAsZLog9Toxr7zRDBqXyPXK25mu1hbIYdBcbbG1kwqruDX_6P62liaGF4W28Dtpebv5VOZNYfBS6IBgGAB--ppwc&amp;num=1&amp;cid=5GgTiK7QD4nPKHjm__S508WT&amp;sig=AOD64_28Q5-E65sjDsXRoid-g6oA3X1GdA&amp;client=ca-nytimes_article_var&amp;adurl=http://tracker.marinsm.com/rd%3Ftid%3DcpV8Y7Mr0_dc%26cshift_ck%3D%7Bm_uid%7DcspV8Y7Mr0%26cid%3D5419%26pcrid%3D22887864999%26lp%3Dhttp%253A%252F%252Fscanners.fcpa.fujitsu.com%252Fscansnap11%252F%26WT.term%3D%26type%3D%26placement%3Dwww.nytimes.com%26adpos%3Dnone%26network%3Dd%26WT.source%3Dgoogle%26WT.campaign%3DSite%2BRetargeting%26WT.medium%3Dcpc%26WT.content%3Dtext%26WT.mc_id%3DSite%2BRetargeting%26WT.srch%3D1%26utm_term%3D%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DSite%2BRetargeting%26WT.srch%3D1"; 
+google_ad.visible_url = "www.fujitsu.com/ScanSnap"; 
+google_ad.line1 = "Fujitsu ScanSnap Scanners"; 
+google_ad.line2 = "Experience Digital Innovation with"; 
+google_ad.line3 = "Fujitsu ScanSnap Scanners. Buy Now!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "http://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html%26gl%3DUS%26hl%3Den%26client%3Dca-nytimes_article_var%26hideleadgen%3D1%26ai0%3DCxUQM2GztUeH4Loe4lgTt34DAAv_VorEDn83gxVWv4JPDuAEQASCc8_gBUK3QgoP4_____wFgyY7ghsijkBmgAfnV2PgDyAEBqAMBqgSmAU_QMSbIOolv5CUZViAjUDZkRMy65pobFrgFD7N5tjJ9c4ASUvWhBCwQWiDl8Idc7th6fnXQwl7JAgJGm0-AKQIQ1cHqqCFKi328kL4Ms6sKaW82B1PKy6zA8kdFp-DpncHAqrgbWfgKa7u6N5JwAsZLog9Toxr7zRDBqXyPXK25mu1hbIYdBcbbG1kwqruDX_6P62liaGF4W28Dtpebv5VOZNYfBS6IBgGAB--ppwc\x26usg\x3dAFQjCNEITm-M_Iu_tp1XYxBvll7_6GYSQQ";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

@@ -1,0 +1,62 @@
+-
+ product: SOP-TR
+ sentence: Link your SOPs with your TRs
+ sections:
+  s0: >
+  s1: >
+    You can pre-order a license granting a unlimited use of this online application. 
+    Pre-order request will have a permanent access to update.
+    Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
+  s2: > 
+    We want to develop incrementally a web application using this intial crowdfunding.
+    First user pre-ordering an access to the siet will be able to influsnce the developement of features.
+    A free limited public access will be provided as a teaser. Pre-orders will also have access to the source at the launch and decide to implement this app on their own server or framework.
+    However, further updates will only be available through the online app.
+-
+ product: relocatebook.com next-to-relocate.com relocate.me relohelp.com 
+ sentence: Find new friends to help relocate
+ sections: 
+  s0: >
+    Like with AirBNB, create a community/network of recent or next-to-be relocated individuals and family,
+    From adventurers looking for the best place to live or work to people that just want to understand the place of their new job,
+    the goal is to put together people with experience of relocation and new relocated that might become themselves coach after their own move. 
+    There are a lot of websites and information on the web about relocation but a lot are simply advertizing of real estate agents or moving companies. 
+    Finding people really understanding the local environment is always a challenge when you arrive in a new area, especialy if you coe from abroad. 
+    I went personaly through a coupl of reloaction with several so called scpeliazed agents, and none of them provided the relevant information that would have help us to find the right home, and the right neighborough. 
+    Why? because their interests are not convergent and their knowledge/personal experience is distant or has nothing to do with actual relocation.
+    How to make people share
+         - Most poepls want to share to help the relocating community
+         - Incentive could include discount
+         - Avoid free story and gather fact
+         - Business model: pay to access the database? payed by enterprise?
+    Aspects:
+         - schools (rating )
+         - price
+		 - other factors
+    Personal grid (pay?) and maching by ML approach
+  s1: >
+    Find the best place to relocate.
+    optimal places in the world to relocate to and give an estimated cost of relocation. 
+    Market: initially market to college students and people starting out in their careers; 
+    ultimately market to people at various transition points (e.g. MDs graduating from medical school,
+    veterans returning home) and expand to the executive relocation services market.
+  s2: >
+    Personal choices are captured and used to create grids which act like search agents based on ML algorithms (ref.)
+    like Netflix helps you to choose movies or Amazon proposes you products related to your previous searchs and purchases.
+  s3: >
+    International aspects
+ faq:
+    -1:
+      -q: What is the purpose of this site?   
+      -a:  Helping people to relocate
+    -2: 
+      -q: What the general principle?
+      -a: >
+           Basic informations are gathered from official source (US school rating system, immo prices and records, city-data...). 
+-
+ product: Nuage
+ sentence: Patients conduct Clinical Research by themselves
+ sections:
+  s0: >
+    Clinical research involves a lot of data usualy collected under the responsability of a physician (called Principal Pnvestigator)
+    Patient have now frequent access to Internet and should be considered part of the system instead of an added element (ePRO). The purpose if to try to pre-fill all related field.        

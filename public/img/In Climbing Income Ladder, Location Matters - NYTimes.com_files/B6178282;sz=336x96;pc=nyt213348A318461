@@ -1,0 +1,6 @@
+document.write('<!-- Template Id = 4,228 Template Name = HTML Image Banner + Optional Additional Tracking - [DFA] -->\n<a href=\"http://ad.doubleclick.net/click%3Bh%3Dv8/3e27/7/112/%2a/k%3B270841173%3B2-0%3B0%3B90787271%3B44229-336/96%3B52307286/52266714/1%3B%3B%7Eokv%3D%3Bpc%3Dnyt213348A318461%3B%3B%7Esscs%3D%3fhttp://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/business&pos=Box1&camp=TDAmeritrade_CoreStandND12-1867194-nyt1&ad=CoreStandND12.TraderDesk.dart336x96&sn2=4b9ff321/390fe73f&snr=doubleclick&snx=1374513938&sn1=c85f30e5/3802579f&goto=https://www.tdameritrade.com/o.cgi?p=/service/why-td-ameritrade.page&a=PUG&o=206&cid=MIXBTNFIN10732629078727152307286\" target=\"_blank\">\n<img src=\"http://s0.2mdn.net/1620481/1-cstda_general_general_market60d600cnew_market60d600c_wcpricing_336x96.jpg\" border=\"0\" alt=\"\"/></a>\n');
+
+if(""!=""){document.write('<img src="'+''+'" border="0" alt="" style="display:none"/>');}
+if (""!=""){document.write('<scr'+'ipt type="text/javascript" src="'+''+'"><\/scr'+'ipt>');}
+
+document.write('\n<script src=\"http://b.voicefive.com/c2/6035530/rs.js#c1=3&amp;c3=6178282&amp;c4=52307286&amp;c5=90787271&amp;c6=&amp;c10=1&amp;c11=1073262&amp;c12=p186565248&amp;c13=336x96&amp;c16=dfa&amp;ax_i=&amp;ax_g=&amp;\"><\/script>');document.write('\n\n\n');

@@ -1,0 +1,73 @@
+/************ TAGX dynamic tags ************************/
+
+(function() {
+var tagger = new TAGX.Tagger();
+tagger.tag().run(function() {window.bi_analytics_js_path = "//graphics8.nytimes.com/bi/js/analytics/nyt4/";;});
+tagger.tag().run(function() {
+if(undefined !== window._missingController) {
+	TAGX.Utils.includeFile("http://graphics8.nytimes.com/bi/js/analytics/nyt4/controller.js", false, "body", true, "loaded:controller.js");    
+};});
+tagger.define("page.dom.custom", function (callback) {
+    TAGX.$.domReady(function () {
+        callback(function (params, callback) {
+            if (params.length > 0) {
+                TAGX.$(document).one(params[0], function () {
+                    callback(true);
+                });
+            }
+        });
+    });
+}
+);
+tagger.tag().condition(function (callback) { TAGX.Ops.on.call(this, "page.dom.custom", ["loaded:controller.js"], callback); }).run(function() {// Set data for AudienceScience
+(function () {
+    var getMetaTag = function(tagName) {
+        var metaTags = document.getElementsByTagName("meta");
+        for (var i in metaTags) { 
+            if (metaTags[i].name == tagName) {
+                return metaTags[i].content;
+            }
+        }
+      return "";
+    }
+
+    var addCategory = function(category, valueToAppend) {
+        if (valueToAppend !== "") {
+            return category + " > " + valueToAppend;
+        } else {
+            return category;
+        }
+    }
+
+    window.DM_prepClient = function(csid, client) {
+        if ("H07707" == csid) {
+            var contentGroup = getMetaTag("WT.cg_n");
+            if (contentGroup != "Homepage") {
+                var catValue = "NYTimesglobal";
+                catValue = addCategory(catValue, contentGroup);
+                catValue = addCategory(catValue, getMetaTag("WT.cg_s"));
+                client.DM_cat(catValue);    
+            }
+        } // if H07707     
+    }
+
+    // AudienceScience script tag 
+    TAGX.Utils.includeFile("http://js.revsci.net/gateway/gw.js?csid=H07707&auto=t", false, 'body', true, null);
+}());;});
+tagger.tag().run(function() {//var _missingEventTracker;
+if(undefined !== window._missingEventTracker) {
+	TAGX.Utils.includeFile("http://graphics8.nytimes.com/bi/js/analytics/EventTracker.js", false, 'body', true, "loaded:EventTracker.js"); 
+};});
+tagger.tag().run(function() {if(window._sf_async_config) {
+	var acct = "anon";
+	if (0 !== "") {
+		var subs = {};
+		acct = "lgdin";
+		if (subs && subs.subscriptions && JSON.parse(subs.subscriptions).length > 0) {
+			acct = "paid";
+		} 
+	}
+	window._sf_async_config._acct = acct;
+}
+;});
+})();

@@ -1,0 +1,89 @@
+/* $Id: mobileBanner.css 127182 2013-06-06 15:25:17Z gopi_borra $
+   /css/0.1/screen/common/modules/mobileBanner.css
+   (c)2006 - 2013 The New York Times Company  */
+
+#mobileBanner + #shell {
+  margin: 165px auto 0;
+}
+
+.mobileBanner {
+  background-color: #ebebeb;
+  border-bottom: 4px solid #111;
+  box-shadow: 0 4px 14px rgba(0,0,0,.25);
+  font-size: 3.2em; /* 32px */
+  line-height: 1.125em; /* 36px */
+  min-height: 60px;
+  overflow: hidden;
+  position: fixed;
+  padding: 10px 0 100px;
+  top: -7px;
+  text-align: center;
+  width: 980px;
+  z-index: 120000001;
+  -webkit-text-size-adjust: 100%;
+}
+
+.mobileBanner .bannerClose {
+  background-position: 42px -160px;
+  height: 154px;
+  left: 0;
+  top: 0;
+  text-indent: -999em;
+  width: 128px;
+}
+
+.mobileBanner .bannerClose,
+.mobileBanner .bannerMessage {
+  background-image: url(/images/icons/close_arrow_34x173_sprite.png);
+  background-repeat: no-repeat;
+  background-size: 54px auto;
+  position: absolute;
+}
+
+.mobileBanner strong { 
+  color: #000; 
+}
+
+.mobileBanner a,
+.mobileBanner a:visited {
+  color: #111;
+}
+
+.mobileBanner .bannerMessage {
+  border-left: 2px solid #ccc;
+  background-position: 94% 39px;
+  color: #111;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.469em; /* 47px */
+  line-height: 1.1063em; /* 52px */
+  left: 136px;
+  margin: 9px 0 0;
+  padding: 16px 170px 20px 70px;
+  text-shadow: 0 2px 0 #fff;
+}
+
+@media screen and (orientation:landscape) {
+#mobileBanner + #shell {
+  margin: 84px auto 0;
+}
+
+#mobileBanner { 
+  padding: 12px 0 20px;
+}
+
+.mobileBanner .bannerMessage { 
+  background-position: 94% 5px; 
+  background-size: 42px auto; 
+  font-size: 1em;  /* 32px */
+  line-height: 1.0625em; /* 36px */
+  left: 102px; 
+  padding: 12px 150px 12px 60px;
+}
+
+.mobileBanner .bannerClose { 
+  background-position: 30px -126px;
+  background-size: 38px auto;
+  height: 120px;
+  width: 104px; 
+}
+}
