@@ -1,12 +1,4 @@
-flights.com
- id: Follow
- sentence: Follow through GPS a traveller and propose adequate localized resources 
-
-quizz.com: 
- id: Quiz
- sentence: community driven quiz creation on anything
-
-watchmycam.com:
+-
  id: Watch-My-Cam
  sentence: Community Surveillance Network
  section1: >
@@ -19,12 +11,10 @@ watchmycam.com:
  section3: >
    In a "surveillance mission", watching team is credited in bitcoin and demander debited.
    Like amazon truk (human task).
-
-weiqiproblems.com:
+-
  id: Problems.go
  sentence: All html5 - dual
-
-learningpartner.com: 
+- 
  id: learn-by-competition
  sentence: find your learning partner
  section1: >
@@ -33,8 +23,7 @@ learningpartner.com:
  section2: >
    Let's create an app that makes learning fun by finding a maching partner online.
    Dilgo is good for kids but grown-ups need real people interaction. 
-
-CDISCBrowser.com:
+-
  id: CDISCbrowser
  sentence: CDISC interactive browser
  section1: >
@@ -45,31 +34,27 @@ CDISCBrowser.com:
    - Explore the terminology
    - Define and enforce condition between variables
    - Assure consistency with the terminology
-
-H24HR.com:
+-
  id: HR-HireHelp H24HR.com ML4HR
  sentence: Find people matching your need through machine learning
  section1: >
-    Like Yelp, establish people actual skills. Differentiate between reputation and skills. 
-    Allow new comer to easily be hired instead of relying on network of established contractors.
-    Establish reputation by analysizing skilld endorsed on linkedIn and work on oDesk a freelancer and elance.
- 
+ 	Like Yelp, establish people actual skills. Differentiate between reputation and skills. 
+        Allow new comer to easily be hired instead of relying on network of established contractors.
+        Establish reputation by analysizing skilld endorsed on linkedIn and work on oDesl a freelancer and elance
  section2: > 
-    Adequation to the position will be juged by a 3 month questionnaire. Staying on the job is the 
-    outcome. More sophisticated outcome could be used (mutual satisfaction. Overall criteria are 
-    based on these outcome instead of predefined criteria i.e. we pragmatically assess what worked
-    under the same assumption. Toe to be considered in th model.
-
-mobilemach.com:
+	Adequation to the position will be juged by 3month questionnaire. Staying on the job is the 
+        outcome. More sophisticated outcome could be used (mutual satisfaction. Overall criteria are 
+	based on these outcome instead of predefined criteria (i.e. we pragmatically assess what worked
+        under the same assumption. Toe to be considered in th model.
+-
  id: mobile mach
  sentence: find a pal for something
  section1: >
-    People spend more and more time on line in a virtial world. 
-    It become essential to recreate interactive personnal link between people. 
+   	People spend more and more time on line in a virtial world. 
+        It become essential to recreate interactive personnal link between people. 
  section2: >
-    Learning: like duolinguo but with a symetric learner. Objective: answer your questions
-
-randjs.com: 
+ 	Learning: like duolinguo but with a symetric learner. Objective: answer your questions
+- 
  id: rand-js
  sentence: promote minimzation as a tool for randomize CT
  section1: >
@@ -82,7 +67,7 @@ randjs.com:
    all potential factors involved in the outcome (including tested treatment).
 
 
-sopsys.com:
+-
  id: SOP-TR
  sentence: Link your SOPs with your TRs
 
@@ -91,14 +76,14 @@ sopsys.com:
     Pre-order request will have a permanent access to update.
     Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
 
- section2: > 
+  section2: > 
             We want to develop incrementally a web application using this initial crowdfunding.
             First users pre-order an access to the site and will be able to influence the developement of features.
             A free limited public access will be provided to give an idea of the main features. 
             You can pre-order a license granting a unlimited use of this online application. 
             Pre-order request will have a permanent access to update.
             Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
-xhelp:
+-
  id: relocatebook.com next-to-relocate.com relocate.me relohelp.com 
  sentence: Find new friends to help relocate
  section1: >
@@ -118,36 +103,39 @@ xhelp:
     </ul>
     Aspects:
     <ul>
-       <li>schools (rating )</li>
-       <li>price</li>
-       <li>other factors</li>
+         <li>schools (rating )</li>
+         <li>price</li>
+	 <li>other factors</li>
     </ul>
- section2: >
+  section2: >
     Find the best place to relocate, for example optimal places in the world with an estimated cost of relocation. 
     Market: initially market to college students and people starting out in their careers; 
     ultimately market to people at various transition points (e.g. MDs graduating from medical school,
     veterans returning home) and expand to the executive relocation services market.
 
- section3: >
+  section3: >
     Personal grid (pay?) and maching by ML approach.
     Personal choices are captured and used to create grids which act like search agents based on ML algorithms (ref.)
     like Netflix helps you to choose movies or Amazon proposes you products related to your previous searchs and purchases.
 
- section5: >
+  section5: >
     A lot of informal comment. Actual usful comment in neibirough by people leaving there. 
     Express yourself on your
 
- faq_q1: What is the purpose of this site?   
- faq_a1: Helping people to relocate by creating a community and handling criteria grids.
- faq_q2: Where the data come form?
- faq_a2: >
+  faq1:
+      q: What is the purpose of this site?   
+      a:  Helping people to relocate
+  faq2: 
+      q: Where the data come form?
+      a: >
                    Basic informations are gathered from official source (US school rating system, house prices and records, city-data...).
                     Additional information is provided by users who complete simple forms.
- faq_q3: How your search is handled?
- faq_a3: >
+  faq3:
+	q: How your search is handled?
+        a: >
                     Your personnal criteria grid is completed by hand and enhanced from your actions during your research.
                     Special algorithms help maching sites and users that correspond the most to your grid.
-crnuage.com:
+ -
  id: PNuage.com
  sentence: Patients conduct Clinical Research by themselves
  section1: >

@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{title}</title>
+    <title>Participate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -16,36 +17,20 @@
 
       /* Large desktop */
       @media (min-width: 980px) { 
-        body {
-         padding-top: 60px;
-        }
-       .linediv-l {
-         border-right: 1px white solid;
-        }
-       .linediv-r {
-         border-left: 1px white solid;
-       }
+        body {padding-top: 60px; }
+       .linediv-l {border-right: 1px white solid;}
+       .linediv-r {border-left: 1px white solid;}
       }
 
       /* Landscape phones and down */
       @media (max-width: 480px) { 
-       .copy {
-         padding: 2.5% 10%;
-       }
-       .linediv-l {
-         border-bottom: 1px white solid;
-       }
-       .linediv-r {
-         border-top: 1px white solid;
-       }
+       .copy {padding: 2.5% 10%;}
+       .linediv-l {border-bottom: 1px white solid;}
+       .linediv-r {border-top: 1px white solid;}
       }
-
-      /* All form factors */
 
       /* Main body and headings */
-      body{
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-      }
+      body{font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
       .heading, .subheading {
         font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
         text-align: center;
@@ -61,22 +46,14 @@
       }
 
       /* Video pitch and Action */
-      .pitch {
-        padding: 2.5% 0%;
-      }
-      .order {
-        padding: 2% 0%;
-      }
+      .pitch {padding: 2.5% 0%;}
+      .order {padding: 2% 0%;}
       .actions {
         background-color: #343434;
         padding: 3% 0%;
       }
-      .video, .thermometer, .order, .social, .statistics {
-        text-align: center;
-      }
-      .statistics h3, .statistics p {
-        color: white;
-      }
+      .video, .thermometer, .order, .social, .statistics {text-align: center;}
+      .statistics h3, .statistics p {color: white;}
 
       /* Marketing Copy and Footer */
       .copy {
@@ -84,24 +61,17 @@
         padding-bottom: 2.5%;
         text-align: justify;
       }
-      .asset {
-        padding: 2.5% 0%;
-      }
+      .asset {padding: 2.5% 0%;}
       .footer {
         color: #cccccc;
         text-align: center;
       }
-      .footer p {
-        font-size: 11px;
-      }
-      .footer a {
-        color: #ccccff;
-      }
+      .footer p {font-size: 11px;}
+      .footer a {color: #ccccff;}
     </style>
   </head>
   <body>
 
-    <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -112,12 +82,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">{id}</a>
+          <a class="brand" href="#">Bitstarter</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">{Home}</a></li>
-              <li><a href="#about">{About}</a></li>
-              <li><a href="#contact">{Contact}</a></li>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -133,47 +103,45 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>{title}</h1>
+          <h1>Help-Me-To-Relocate.com</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">{sentence}</p>
+          <p class="lead">Relocation as a community</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img id="image0" class="img-polaroid" alt="Placeholder" src="{image0}">
-        </div>
+          <img class="img-polaroid" src="img/home.jpg">
+        </div>__dirname
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
-          <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="row-fluid statistics">
+            <div class="statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>{n}</h3> <p>{backers}</p>
+                <h3>2</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3 id="amount">{amount}</h3> <p id="target">of {target}</p>
+                  <h3>$5000</h3> <p>of $200,000</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3 id="days">{days}</h3> <p>days left</p>
+                <h3>60</h3> <p>days left</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
@@ -182,23 +150,17 @@
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
-          </div>
-          <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
-          </div>
-          <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
-          </div>
-        </div>
         </div>
       </div>
 
@@ -207,22 +169,90 @@
       <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
-        <div class="span5 offset1 asset">
-          <img id="image1" class="img-polaroid"  alt="Placeholder" src="{image1}">
+
+        <div class="span5 offset1 copy copy-right">
+          <p>
+    Find the best place to relocate.
+    optimal places in the world to relocate to and give an estimated cost of relocation. 
+    Market: initially market to college students and people starting out in their careers; 
+    ultimately market to people at various transition points (e.g. MDs graduating from medical school,
+    veterans returning home) and expand to the executive relocation services market.
+          </p>
+         </div>
+
+        <div class="span5 asset">
+          <img class="img-polaroid" src="img/world.jpg">
         </div>
-        <div class="span5 copy">
-          <p id="section1">{section1}</p>
-        </div>
+
       </div>
 
       <div class="row-fluid section2">
-        <div class="span5 offset1 copy copy-right">
-          <p id="section2">{section2}</p>
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="img/city-data.jpg">
+          <img class="img-polaroid" src="img/school.jpg">
         </div>
-        <div class="span5 asset">
-          <img id="image2" class="img-polaroid"  alt="Placeholder" src="{image2}">
+
+        <div class="span5 copy">
+          <p>
+    Like with AirBNB, create a community/network of recent or next-to-be relocated individuals and family,
+    From adventurers looking for the best place to live or work to people that just want to understand the place of their new job,
+    the goal is to put together people with experience of relocation and new relocated that might become themselves coach after their own move. 
+    There are a lot of websites and information on the web about relocation but a lot are simply advertizing of real estate agents or moving companies. 
+    Finding people really understanding the local environment is always a challenge when you arrive in a new area, especialy if you coe from abroad. 
+    I went personaly through a couple of reloaction with several so called specalized agents, and none of them provided the relevant information that would have help us to find the right home, and the right neighborough. 
+    Why? because their interests are not convergent and their knowledge/personal experience is distant or has nothing to do with actual relocation.
+    How to make people share?
+    <ul>
+         <li>Most people want to share to help the relocating community</li>
+         <li>Incentive could include discount</li>
+         <li>Avoid free story and gather fact</li>
+         <li>Business model: pay to access the database? payed by enterprise?</li>
+    </ul>
+    Aspects:
+    <ul>
+         <li>schools (rating )</li>
+         <li>price</li>
+		 <li>other factors</li>
+    </ul>
+    Personal grid and maching by ML approach
+          </p>
         </div>
+
+
+
       </div>
+
+
+      <div class="row-fluid section4">
+        <div class="span5 offset1 copy copy-right">
+          <p>
+    Personal choices are captured and used to create grids which act like search agents based on ML algorithms (ref.)
+    like Netflix helps you to choose movies or Amazon proposes you products related to your previous searchs and purchases.
+          </p>
+        </div>
+    
+        <div class="span5 asset">
+          <img class="img-polaroid" src="img/map_colored.jpg">
+        </div>
+        
+      </div>
+    
+      <div class="row-fluid section3">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="img/priceIndex.jpg">
+        </div>
+
+        <div class="span5 offset1 copy copy-right">
+          <p>
+            We want to develop incrementally a web application using this initial crowdfunding.
+            First users pre-order an access to the site and will be able to influence the developement of features.
+            A free limited public access will be provided to give an idea of the main features. 
+            You can pre-order a license granting a unlimited use of this online application. 
+            Pre-order request will have a permanent access to update.
+            Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
+          </p>
+        </div>
+      </div> 
 
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
@@ -235,41 +265,45 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    {faq_q0}
+                   What is the purpose of this site?  
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    {faq_a0}
+                    Helping people to relocate by creating a community and handling criteria grids.
                   </div>
                 </div>
               </div>
+              
               <div class="accordion-group">
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    {faq_q1}
+                    Where data comes from?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    {faq_a1}
+                    Basic informations are gathered from official source (US school rating system, house prices and records, city-data...).
+                    Additional information is provided by users who complete simple forms.
                   </div>
                 </div>
-              </div>
+                </div>
+              
               <div class="accordion-group">
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseThree">
-                    {faq_q2}
+                    How your search is handled?
                   </a>
                 </div>
                 <div id="collapseThree" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    {faq_a2}
+                    Your personnal criteria grid is completed by hand and enhanced from your actions during your research.
+                    Special algorithms help maching sites and users that correspond the most to your grid.
                   </div>
                 </div>
-              </div>
+              
             </div>
           </div>
 
@@ -279,7 +313,8 @@
       <!-- http://creativecommons.org/licenses/ -->
       <div class="row-fluid footer">
         <div class="span12">
-          <p>{copy}</p>
+          <p>Copyright <a href="javascript:null;">test</a></p>
+          <p>2013</p>
         </div>
       </div>
     </div>
