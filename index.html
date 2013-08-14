@@ -115,9 +115,9 @@
           <a class="brand" href="#">{id}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">{Home}</a></li>
-              <li><a href="#about">{About}</a></li>
-              <li><a href="#contact">{Contact}</a></li>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -158,12 +158,12 @@
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>{n}</h3> <p>{backers}</p>
+                <h3>{n}</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3 id="amount">{amount}</h3> <p id="target">of {target}</p>
+                  <h3 id="amount">${amount}</h3> <p id="target">of ${target}</p>
                 </div>
               </div>
               <div class="span4">
@@ -235,23 +235,10 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    {faq_q0}
-                  </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    {faq_a0}
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseTwo">
                     {faq_q1}
                   </a>
                 </div>
-                <div id="collapseTwo" class="accordion-body collapse">
+                <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
                     {faq_a1}
                   </div>
@@ -260,13 +247,26 @@
               <div class="accordion-group">
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseThree">
+                     data-parent="#accordion2" href="#collapseTwo">
                     {faq_q2}
+                  </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    {faq_a2}
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseThree">
+                    {faq_q3}
                   </a>
                 </div>
                 <div id="collapseThree" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    {faq_a2}
+                    {faq_a3}
                   </div>
                 </div>
               </div>

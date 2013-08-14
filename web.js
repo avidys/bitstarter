@@ -6,7 +6,7 @@ var express = require('express')
 
 process.env.PWD = process.cwd()
 
-var home = require('./controller3.js'); 
+var home = require('./controller.js'); 
 
 var port = process.env.PORT || 8080;
 console.log("Starting Server on port "+port);

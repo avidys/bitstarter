@@ -1,12 +1,14 @@
-flights.com
+flights:
  id: Follow
  sentence: Follow through GPS a traveller and propose adequate localized resources 
+ note: done by android and some app/mobile 
 
-quizz.com: 
+quizz: 
  id: Quiz
  sentence: community driven quiz creation on anything
+ note: exist but note oriented to evaluate. no checking of quiz
 
-watchmycam.com:
+watchmycam:
  id: Watch-My-Cam
  sentence: Community Surveillance Network
  section1: >
@@ -20,9 +22,10 @@ watchmycam.com:
    In a "surveillance mission", watching team is credited in bitcoin and demander debited.
    Like amazon truk (human task).
 
-weiqiproblems.com:
- id: Problems.go
+weiqigame:
+ id: Problems.go go game stuff
  sentence: All html5 - dual
+
 
 learningpartner.com: 
  id: learn-by-competition
@@ -34,73 +37,92 @@ learningpartner.com:
    Let's create an app that makes learning fun by finding a maching partner online.
    Dilgo is good for kids but grown-ups need real people interaction. 
 
+
 CDISCBrowser.com:
  id: CDISCbrowser
  sentence: CDISC interactive browser
+
  section1: >
   CDISC is a standard for transmtting medical research data. Easier tools for perusing and
   this standard will eventually decrease drug and decices cist and benefit the whole population.
+
  section2: >
   This web based app with local cache will allow to: 
    - Explore the terminology
    - Define and enforce condition between variables
    - Assure consistency with the terminology
 
-H24HR.com:
- id: HR-HireHelp H24HR.com ML4HR
+
+H24HR:
+ id: h24hr.com Hire Help for Human Resources
  sentence: Find people matching your need through machine learning
+
  section1: >
-    Like Yelp, establish people actual skills. Differentiate between reputation and skills. 
-    Allow new comer to easily be hired instead of relying on network of established contractors.
-    Establish reputation by analysizing skilld endorsed on linkedIn and work on oDesk a freelancer and elance.
+	Our goal is to develop the best app to help hiring people actually fiting the position. 
+    This position fit encompasses personal skills, entreprise culture, and team values.  
+    Like Yelp for places, we want to better establish people adequation between entreprise needs and what candidates offer.
+    It will be by evaluating kills, endorsements (LinkedIn), reviews, and result form previous placements. 
+    We wnat to allow new comers to be considered instead of relying on network of established contractors.
  
  section2: > 
-    Adequation to the position will be juged by a 3 month questionnaire. Staying on the job is the 
-    outcome. More sophisticated outcome could be used (mutual satisfaction. Overall criteria are 
+    Adequation to the position will be juged by a 3 month questionnaire. Staying on the job with good reviews is the 
+    main outcome, involving both parties mutual satisfaction. Overall criteria are 
     based on these outcome instead of predefined criteria i.e. we pragmatically assess what worked
-    under the same assumption. Toe to be considered in th model.
+    under the same assumption. 
+
 
 mobilemach.com:
  id: mobile mach
  sentence: find a pal for something
+
  section1: >
     People spend more and more time on line in a virtial world. 
     It become essential to recreate interactive personnal link between people. 
  section2: >
     Learning: like duolinguo but with a symetric learner. Objective: answer your questions
 
-randjs.com: 
- id: rand-js
- sentence: promote minimzation as a tool for randomize CT
+
+minirand.com: 
+ id: minirand.com
+ sentence: Promote minimization as a tool for randomizing CT
+
  section1: >
    Objective evaluation of bioligical (multi ariable) effect requires that the investigator/system
-   be not aware of the tested treatment (observator effect, placebo). Random treatment allication and blinding
+   be not aware of the tested treatment (observator effect, placebo). Random treatment allocation and blinding
    achieve this goal. Ideally all confondat factor (prognostic factior...) should also be talen into account
+
  section2: >
    Traditional randomization follows pre allocated balanced blocks. Minmization takes into account 
    the already allocated treatements to better balance allocation between 
    all potential factors involved in the outcome (including tested treatment).
 
 
-sopsys.com:
- id: SOP-TR
- sentence: Link your SOPs with your TRs
+trackadoc:
+ id: tracadoc.com 
+ sentence: Track your documents and link them with your Training Records
 
  section1: >
-    You can pre-order a license granting a unlimited use of this online application. 
-    Pre-order request will have a permanent access to update.
-    Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
+    Regulated industries need to ensure all documents related to critical processes are properly 
+    identified and any change recorded. This project aims at handling the corresponding workflow and at enforcing 
+    review and signing requirements.
+     
+ section4: > 
+    Our goal is to develop a mobile application using this initial crowdfunding.
+    You can pre-order a license granting a unlimited use of this online application, 
+    which will grant you a seat to the user community, thus influencing the choices of the first implemented features.
 
- section2: > 
-            We want to develop incrementally a web application using this initial crowdfunding.
-            First users pre-order an access to the site and will be able to influence the developement of features.
-            A free limited public access will be provided to give an idea of the main features. 
-            You can pre-order a license granting a unlimited use of this online application. 
-            Pre-order request will have a permanent access to update.
-            Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
+ section3: >
+    Pre-ordered licenses granting a unlimited use of this online application. 
+    Pre-orders will have a permanent access to future updates.
+    Once the first version of the site is be lanched, new licensee will only have 1 year access to the application. 
+
+
+
 xhelp:
  id: relocatebook.com next-to-relocate.com relocate.me relohelp.com 
+ title: relocatebook.com next-to-relocate.com relocate.me relohelp.com 
  sentence: Find new friends to help relocate
+
  section1: >
     Like with AirBNB, create a community/network of recent or next-to-be relocated individuals and family,
     From adventurers looking for the best place to live or work to people that just want to understand the place of their new job,
@@ -122,6 +144,7 @@ xhelp:
        <li>price</li>
        <li>other factors</li>
     </ul>
+
  section2: >
     Find the best place to relocate, for example optimal places in the world with an estimated cost of relocation. 
     Market: initially market to college students and people starting out in their careers; 
@@ -133,9 +156,27 @@ xhelp:
     Personal choices are captured and used to create grids which act like search agents based on ML algorithms (ref.)
     like Netflix helps you to choose movies or Amazon proposes you products related to your previous searchs and purchases.
 
- section5: >
+ section4: >
     A lot of informal comment. Actual usful comment in neibirough by people leaving there. 
     Express yourself on your
+
+ section5: >
+    We want to develop incrementally a web application using this intial crowdfunding.
+    First user pre-ordering an access to the siet will be able to influsnce the developement of features.
+    A free limited public access will be provided as a teaser. Pre-orders will also have access to the source at the launch and decide to implement this app on their own server or framework.
+    However, further updates will only be available through the online app.
+ 
+ section6: >
+    You can pre-order a license granting a unlimited use of this online application. 
+    Pre-order request will have a permanent access to update.
+    Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
+
+ img1: home.jpg
+ img2: world.jpg
+ img3: city-data.jpg
+ img4: school.jpg
+ img5: map_colored.jpg
+ img6: priceIndex.jpg
 
  faq_q1: What is the purpose of this site?   
  faq_a1: Helping people to relocate by creating a community and handling criteria grids.
@@ -147,12 +188,18 @@ xhelp:
  faq_a3: >
                     Your personnal criteria grid is completed by hand and enhanced from your actions during your research.
                     Special algorithms help maching sites and users that correspond the most to your grid.
-crnuage.com:
+  
+
+cloudform.com:
  id: PNuage.com
  sentence: Patients conduct Clinical Research by themselves
+
  section1: >
    Clinical research involves a lot of data usualy collected under the responsability of a physician
    (called Principal Investigator, PI)
    Patient have now frequent access to Internet and should be considered part of the system instead of an added element (ePRO). 
    The purpose if to try to pre-fill all related field.        
 
+crfdesigner:
+  id: crf-designer.com
+  sentence: Design your CRF online, from standards
