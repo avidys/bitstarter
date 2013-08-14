@@ -55,14 +55,15 @@ CDISCBrowser.com:
 
 H24HR:
  id: h24hr.com Hire Help for Human Resources
+ title: Hire Help for Human Resources
  sentence: Find people matching your need through machine learning
 
  section1: >
-	Our goal is to develop the best app to help hiring people actually fiting the position. 
+    Our goal is to develop the best app to help hiring people actually fiting the position. 
     This position fit encompasses personal skills, entreprise culture, and team values.  
     Like Yelp for places, we want to better establish people adequation between entreprise needs and what candidates offer.
     It will be by evaluating kills, endorsements (LinkedIn), reviews, and result form previous placements. 
-    We wnat to allow new comers to be considered instead of relying on network of established contractors.
+    We want to allow new comers to be considered instead of relying on network of established contractors.
  
  section2: > 
     Adequation to the position will be juged by a 3 month questionnaire. Staying on the job with good reviews is the 
@@ -70,9 +71,25 @@ H24HR:
     based on these outcome instead of predefined criteria i.e. we pragmatically assess what worked
     under the same assumption. 
 
+ img0: img/home.jpg
+ img1: img/world.jpg
+ img2: img/hh_happy.jpg.jpg
 
-mobilemach.com:
- id: mobile mach
+ faq_q1: What is the purpose of this app?   
+ faq_a1: Helping hiring people who real fit the company needs and culture.
+
+ faq_q2: How to do that?
+ faq_a2: Several inputs are used to create models that will be used to fit candidates to positions by using machine learning algorithms.  
+
+ faq_q3: What is the price?
+ faq_a3: We want to offer pre-release perpetual licenses with great advantages compared to post-release licenses which will have to be renewed.
+  
+ faq_q4: When will this app be released?
+ faq_a4: The first public version is expected in January 2014.
+
+
+mobilemach:
+ id: mobilemach.com
  sentence: find a pal for something
 
  section1: >
@@ -171,12 +188,12 @@ xhelp:
     Pre-order request will have a permanent access to update.
     Once the first version of the site will be lanched, pre-ordered licenses will continue to have permanent access but new licensee will only have 1 year access to the app. 
 
- img1: home.jpg
- img2: world.jpg
- img3: city-data.jpg
- img4: school.jpg
- img5: map_colored.jpg
- img6: priceIndex.jpg
+ img1: img/home.jpg
+ img2: img/world.jpg
+ img3: img/city-data.jpg
+ img4: img/school.jpg
+ img5: img/map_colored.jpg
+ img6: img/priceIndex.jpg
 
  faq_q1: What is the purpose of this site?   
  faq_a1: Helping people to relocate by creating a community and handling criteria grids.

@@ -1,12 +1,13 @@
 // coursera startup - bitstarter
 
+var home = require('./controller.js'); 
+
 var express = require('express')
   , http = require('http')
   , path = require('path');
 
 process.env.PWD = process.cwd()
 
-var home = require('./controller.js'); 
 
 var port = process.env.PORT || 8080;
 console.log("Starting Server on port "+port);

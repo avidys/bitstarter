@@ -1,9 +1,9 @@
+var filename = "index.html"
+var	IDEAS_DEFAULT = "ideas.yaml";	
+
 
 var fs=require('fs');
-var less = require('less'); // better pre-compile
-var filename = "index.html"
-
-IDEAS_DEFAULT = "ideas.yaml";	
+//var less = require('less'); // better pre-compile
 
 var yaml = require('js-yaml'),
     path=require('path'),
@@ -45,24 +45,18 @@ exports.home = function (request, response) {
 	//for ( var int = 0; int < o.length; int++) {
 		//console.log(o[int].id+": "+o[int].sentence+" = "+o[int].section0);
 	//} 
-	s = s.replace("{title}",o.xhelp.title);
-	s = s.replace("{id}",o.xhelp.id);
-	s = s.replace("{sentence}",o.xhelp.sentence)
-	s = s.replace("{section1]",o.xhelp.section1)
-	s = s.replace("{section2}",o.xhelp.section2)
-	s = s.replace("{section3}",o.xhelp.section3)
-	s = s.replace("{section4}",o.xhelp.section3)
-	s = s.replace("{faq_q1}",o.xhelp.faq_q1)
-	s = s.replace("{faq_a1}",o.xhelp.faq_a1)
-	s = s.replace("{faq_q2}",o.xhelp.faq_q2)
-	s = s.replace("{faq_a2}",o.xhelp.faq_a2)
-	s = s.replace("{faq_q3}",o.xhelp.faq_q3)
-	s = s.replace("{faq_a3}",o.xhelp.faq_a3)
+	for (var property in o.H24HR) {
+	    if (o.H24HR.hasOwnProperty(property)) {
+	    	s = s.replace("{"+property+"}", o.H24HR[property]);
+	    }
+	}
+	s = s.replace("{title}",o.H24HR.title);
 	s = s.replace("{n}","10");
 	s = s.replace("{target}","1000");
 	s = s.replace("{amount}","100");
 	s = s.replace("{days}","15");
 	s = s.replace("{backers}","2");
+	s = s.replace("{copy}","Copyright Avidys 2013");
     response.send(s);
 }
 
@@ -81,8 +75,15 @@ if(require.main == module) {
 	//console.log(loadText(IDEAS_DEFAULT));
 	var o = loadText(IDEAS_DEFAULT);
 	console.log(o.xhelp.id);
-	for ( var int = 0; int < o.length; int++) {
-		console.log(o[int].id+": "+o[int].sentence+" = "+o[int].section0);
-	} 
-	
+	//for ( var int = 0; int < o.length; int++) {
+	//	console.log(o[int].id+": "+o[int].sentence);
+	//} 
+	for (var p in o) 
+		console.log(p.id+": "+p.sentence+" - "+p.title);
+	for (var property in o.H24HR) {
+	    if (o.H24HR.hasOwnProperty(property)) {
+	   	console.log(property);
+	    }
+	}
+   	console.log(o.H24HR.title);
 }
