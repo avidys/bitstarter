@@ -59,21 +59,33 @@ H24HR:
  sentence: Find people matching your need through machine learning
 
  section1: >
-    Our goal is to develop the best app to help hiring people actually fiting the position. 
-    This position fit encompasses personal skills, entreprise culture, and team values.  
-    Like Yelp for places, we want to better establish people adequation between entreprise needs and what candidates offer.
-    It will be by evaluating kills, endorsements (LinkedIn), reviews, and result form previous placements. 
-    We want to allow new comers to be considered instead of relying on network of established contractors.
+    Our goal is to develop the best app to help hiring people. 
+    Like Yelp for places, we want to better establish people adequation between enterprise needs and what candidates offer.
+    This encompasses evaluation of personal skills, enterprise culture, and team values.  
+    To achieve this goal, we will use formal testing, endorsements (LinkedIn), reviews, and result form previous placements. 
+    Newcomers to be considered instead of relying on network of established contractors.
  
  section2: > 
-    Adequation to the position will be juged by a 3 month questionnaire. Staying on the job with good reviews is the 
+    Adequation to the position will be judged through questionnaire. Staying on the job with good reviews is the 
     main outcome, involving both parties mutual satisfaction. Overall criteria are 
     based on these outcome instead of predefined criteria i.e. we pragmatically assess what worked
     under the same assumption. 
+ 
+ section3: > 
+    Our goal is to develop a mobile application using crowdfunding.
+    You can pre-order a license granting a unlimited use of the future app, 
+    which will grant you a seat to the user community, thus influencing the development process.
+
+ section4: >
+    Pre-ordered licenses grant an unlimited use of the future app. 
+    Pre-orders will have a permanent access to future updates.
+    Once the first version of the site is launched, new licensee will only have 1 year access to the application. 
 
  img0: img/home.jpg
- img1: img/world.jpg
- img2: img/hh_happy.jpg.jpg
+ img1: img/hh1.jpg
+ img2: img/hh2.jpg
+ img3: img/hh_mag.jpg
+ img4: img/hh_happy.jpg
 
  faq_q1: What is the purpose of this app?   
  faq_a1: Helping hiring people who real fit the company needs and culture.
